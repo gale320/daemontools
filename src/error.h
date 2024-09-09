@@ -3,6 +3,9 @@
 #ifndef ERROR_H
 #define ERROR_H
 
+#include <errno.h>
+
+#if  1
 extern int errno;
 
 extern int error_intr;
@@ -26,5 +29,6 @@ extern int error_notdir;
 
 extern const char *error_str(int);
 extern int error_temp(int);
+#endif
 
 #endif

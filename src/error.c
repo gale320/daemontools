@@ -1,6 +1,6 @@
 /* Public domain. */
 
-#include <errno.h>
+
 #include "error.h"
 
 /* warning: as coverage improves here, should update error_{str,temp} */
